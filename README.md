@@ -1,6 +1,6 @@
 # Cache latency benchmark
 
-Simple random pointer chasing loop benchmakr to measure average cache access latency.
+Simple random pointer chasing loop benchmark to measure average cache access latency.
 
 ## Quick start
 

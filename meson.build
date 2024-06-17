@@ -6,4 +6,4 @@ project('cache-latency', 'c',
     'c_std=c23',
   ])
 
-exe = executable('cache-latency', 'src/cache_latency.c', c_args : ['-march=native'],)
+executable('cache-latency', 'src/cache_latency.c', c_args : ['-march=native'],)

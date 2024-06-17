@@ -118,7 +118,7 @@ int main(int argc, char* argv[argc + 1]) {
             step <<= 1;
         }
 
-        iterations = max_iterations / (uint64_t)ns_per_it;
+        iterations = (uint64_t)((double)max_iterations / ns_per_it);
         if (iterations < min_iterations) {
             iterations = min_iterations;
         }
